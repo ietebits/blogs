@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="IETE blogs logo" src="./static/images/logo.png" width="400">
+  <img alt="IETE blogs logo" src="resources\iete.png" width="400">
 </p>
 
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Fblog.ietebits.com)](https://blog.ietebits.com)
