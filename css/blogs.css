@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+.header{
+    top: 0; left: 0; right: 0;
+    padding: 2rem 9%;
+    padding-bottom: 1rem;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.logo img{
+    width: 60px;
+
+}
+.logo{
+    margin-right: auto;
+    /* border: 2px solid red; */
+    
+}
+.navbar a{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(24, 48, 55);
+        /* border: 2px solid red; */
+}
+.navbar a:hover{
+    color: black;
+}
+.sectionimg{
+    height: 280px;
+    background-image: url(/blogs/featue-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 5rem;
+}
+.sectionbg{
+    background-color: rgba(29, 25, 44,.8);
+    height: 280px;
+}
+.sectionbg h1{
+    padding: 10rem 20rem;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    letter-spacing: 6px;
+    margin-top: 0;
+    text-transform: capitalize;
+}
+.blogimg img{
+    margin: 1rem 25%;
+    margin-top: 0;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.blogcontent{
+    color: #333333;
+    font-size: 14px;
+    margin: 1rem 20%;
+    font-size: 15px;
+}
+.blogcontent h2{
+    margin: 0;
+    font-size: 30px;
+}
+.blogcontent h3{
+    color: #111;
+    font-size: 30px;
+}
+.blogcontent p{
+    margin: 0;
+    text-transform: none;
+}
+.blogcontent h2{
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.911);
+    margin-top: 5rem;
+}
+.blogcontent p{
+    text-transform: none;
+}
+.blogcontent li{
+    text-transform: none;
+}
+iframe{
+    width: 800px;
+    height: 450px;
+}
+
+/* footer section css */
+.footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0 0 0;
+    background-color: #111;
+    /* border: 2px solid red; */
+}
+.contact{
+    padding: 0 22rem 0 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: #014377;
+    /* border: 2px solid red; */
+}
+.contact p{
+    margin: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #999898;
+    /* border: 2px solid red; */
+}
+.follow{
+    padding: 0 5rem 0 22rem;
+    margin: 2rem 0 0 0;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #014377;
+    /* border: 2px solid red; */
+}
+.icons{
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.icons a{
+    margin: 0 2px;
+    color: #999898;
+}
+.icons a :hover{
+    color: whitesmoke;
+}
+.copyright{
+    width: 100vw;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #999898;
+    background-color: #111111;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width:1200px){
+    .header{
+        padding: 2rem;
+    }
+    .navbar a{
+        margin-right: 2rem;
+        font-size: 20px;
+    }
+    .sectionimg{
+        background-size: contain;
+        height: 250px;
+        margin-bottom: 3rem;
+    }
+    .sectionbg{
+        height: 250px;
+    }
+    .sectionbg h1{
+        padding: 10rem 8rem;
+        font-size: 50px;
+        font-weight: 200;
+        letter-spacing: 5px;
+    }
+    .blogimg img{
+        margin: 1rem 5rem;
+        margin-top: 4rem;
+        width: 90%;
+    }
+    .blogcontent{
+        font-size: 14px;
+        margin: 0rem 8%;
+    }
+    .blogcontent h2{
+        margin: 1rem 0;
+        font-size: 30px;
+    }
+    .blogcontent h3{
+        font-size: 25px;
+    }
+    .blogcontent p{
+        margin: 0;
+        text-transform: none;
+    }
+    iframe{
+        width: 600px;
+        height: 350px;
+    }
+    .contact{
+        padding: 0 10rem 0 3rem;
+        font-size: 4rem;
+        margin: 2rem 0 0 0;
+    }
+    .follow{
+        padding: 0 3rem 0 10rem;
+        margin: 2rem 0 0 0;
+        font-size: 4rem;
+    }
+}
+
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:768px){
+    .logo img{
+        width: 45px;
+    }
+    .navbar a{
+        font-size: 16px;
+        margin: 0 1rem;
+    }
+}
+@media (max-width: 540px){
+    .sectionimg{
+        background-size: contain;
+        height: 200px;
+        margin-bottom: 3rem;
+    }
+    .sectionbg{
+        height: 200px;
+    }
+    .sectionbg h1{
+        padding: 7rem 2rem;
+        font-size: 40px;
+    }
+    iframe{
+        width: 400px;
+        height: 220px;
+    }
+    .blogimg img{
+        margin: 1rem 3rem;
+        margin-top: 3rem;
+        align-items: center;
+    }
+    .footer{
+        margin-bottom: -1px;
+        padding: 0;
+    }
+    .contact{
+        padding: 0 6rem 0 3rem;
+        font-size: 3rem;
+        margin: 1rem 0 0 0;
+    }
+    .follow{
+        padding: 0 3rem 0 6rem;
+        margin: 1rem 0 0 0;
+        font-size: 3rem;
+    }
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .navbar a{
+        font-size: 12px;
+        /* border: 2px solid red; */
+        margin-right: 0;
+    }
+    .header{
+        padding: 1rem 6%;
+    }
+    .sectionimg{
+        background-size: contain;
+        height: 140px;
+        margin-bottom: 3rem;
+    }
+    .sectionbg{
+        height: 140px;
+    }
+    .sectionbg h1{
+        padding: 6rem 2rem;
+        font-size: 30px;
+        font-weight: 200;
+        letter-spacing: 3px;
+    }
+    .blogimg img{
+        margin: 1rem 2rem;
+        margin-top: 3rem;
+        align-items: center;
+    }
+    .blogcontent{
+        font-size: 14px;
+        margin: 1rem 10%;
+    }
+    .blogcontent h2{
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+    .blogcontent h3{
+        font-size: 18px;
+    }
+    iframe{
+        width: 300px;
+        height: 170px;
+    }
+    .footer{
+        /* width: 100vw; */
+        display: inline-block;
+        margin-top: 0;
+    }
+    .contact{
+        padding: 0;
+        font-size: 3rem;
+    }
+    .contact p{
+        margin: 2px 0 5px 0;
+    }
+    .follow{
+        padding: 0;
+        font-size: 3rem;
+    }
+    .icons{
+        font-size: 24px;
+    }
+    .copyright{
+        margin-top: -1px;
+    }
+    
+}

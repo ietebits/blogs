@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+body{
+    background: url(/resources/Blog_Background.png) no-repeat;
+    background-size:contain;
+    
+}
+html{
+    font-size: 65%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+.header{
+    top: 0; left: 0; right: 0;
+    padding: 2rem 9%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.logo img{
+    width: 60px;
+
+}
+.logo{
+    margin-right: auto;
+    /* border: 2px solid red; */
+    
+}
+.navbar a{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(24, 48, 55);
+        /* border: 2px solid red; */
+}
+.navbar a:hover{
+    color: black;
+}
+
+
+/* categories section css */
+.categories{
+    text-align: center;
+    margin-top: 75rem;
+    color: #014377;
+    /* border: 2px solid red; */
+}
+.categories p{
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    /* border: 2px solid red; */
+}
+
+
+
+/* container section css */
+.container{
+    justify-content: center;
+    /* border: 2px solid red; */
+    padding: 0 20rem;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+.box{
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    margin: 2rem 3rem; padding: 1rem;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-image: url(/resources/box-bg.jpg);
+    background-size: 420px;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    /* border: 2px solid red; */
+}
+
+.box :hover{
+    box-shadow: 3px 3px 15px rgb(59, 59, 59);
+}
+
+
+/* Latest Blog section css */
+.latestblogtext{
+    text-align: center;
+    font-size: 5rem;
+    color: #014377;
+    font-weight: bold;
+    margin: 4rem 0 2rem 0;
+}
+.blog{
+    display: flex;
+    height: 230px;
+    position: relative;
+    /* text-align: center; */
+    margin: 0 20rem 1rem 20rem;
+    /* border: 2px solid red; */
+}
+/* .blog :hover{
+    box-shadow: .5px .5px 8px rgb(18, 76, 161);
+} */
+.blog img{
+    width: 340px;
+    height: 220px;
+    /* padding-bottom: 1rem; */
+}
+.blog h2{
+    font-size: 20px;
+    padding: 0 0 .5rem 5rem;
+}
+.blog p{
+    font-size: 15px;
+    padding: 0rem 5rem;
+    color: rgba(17, 17, 17, 0.932);
+    /* display: contents; */
+    text-transform: none;
+}
+.readmore{
+    float: left;
+    margin: 2rem 5rem;
+    padding: 1rem;
+    font-size: 14px;
+    color: white;
+    background-color: #5eabd8;
+    /* border: 2px solid red; */
+}
+.readmore:hover{
+    background-color: #014477e5;
+}
+
+
+/* footer section css */
+.footer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: -1px;
+    background-color: #111;
+    /* border: 2px solid red; */
+}
+.contact{
+    padding: 0 22rem 0 5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0 0 0;
+    color: #014377;
+    /* border: 2px solid red; */
+}
+.contact p{
+    margin: 1rem;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #999898;
+    /* border: 2px solid red; */
+}
+.follow{
+    padding: 0 5rem 0 22rem;
+    margin: 2rem 0 0 0;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    color: #014377;
+    /* border: 2px solid red; */
+}
+.icons{
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.icons a{
+    margin: 0 2px;
+    color: #999898;
+}
+.icons a :hover{
+    color: whitesmoke;
+}
+.copyright{
+    width: 100vw;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #999898;
+    background-color: #111111;
+    padding: 1rem 0;
+    margin: 0 0 -1rem -1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media queries */
+
+@media (max-width:1200px){
+    .header{
+        padding: 2rem;
+    }
+    .navbar a{
+        margin-right: 2rem;
+        font-size: 20px;
+    }
+    .categories{
+        text-align: center;
+        margin-top: 34rem;
+        /* border: 2px solid red; */
+    }
+    .categories p{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .container{
+        padding: 0 10rem;
+    }
+    .box{
+        width: 20rem;
+        height: 13rem;
+        font-size: 18px;
+        margin: 1rem 2rem;
+        background-size: 370px;
+    }
+    .contact{
+        padding: 0 10rem 0 3rem;
+        font-size: 4rem;
+        margin: 2rem 0 0 0;
+    }
+    .follow{
+        padding: 0 3rem 0 10rem;
+        margin: 2rem 0 0 0;
+        font-size: 4rem;
+    }
+    .latestblogtext{
+        font-size: 4rem;
+    }
+    .blog{
+        margin: 0 0rem 1rem 2rem;
+        margin-bottom: 5rem;
+    }
+    .blog img{
+        margin-top: .5rem;
+        width: 270px;
+        height: 250px;
+    }
+    .blog h2{
+        padding: 0rem 1.5rem;
+    }
+    .blog p{
+        font-size: 13px;
+        padding: 0rem 1.5rem;
+    }
+    .readmore{
+        float: left;
+        margin: 1.5rem 1.5rem;
+        padding: .8rem;
+        font-size: 14px;
+        border: 2px solid red;
+    }
+    
+}
+@media (max-width:1024px){
+    .categories{
+        position: relative;
+        margin-top: 50%;
+    }
+    .blog img{
+        width: 300px;
+    }
+    .blog p{
+        font-size: 15px;
+    }
+    .footer{
+        margin: 0;
+        margin-bottom: -1px;
+    }
+    .copyright{
+        margin: 0;
+    }
+}
+@media (max-width:991px){
+    html{
+        font-size: 55%;
+    }
+    .footer{
+        margin: 0;
+    }
+    .copyright{
+        margin: 0;
+    }
+}
+@media (max-width:768px){
+    .logo img{
+        width: 45px;
+    }
+    .navbar a{
+        font-size: 16px;
+        margin: 0 1rem;
+    }
+    .categories{
+        text-align: center;
+        margin-top: 40rem;
+        /* border: 2px solid red; */
+    }
+    .box{
+        height: 12rem;
+        background-size: 340px;
+    }
+    .footer{
+        margin: 0;
+    }
+    .copyright{
+        margin: 0;
+    }
+}
+@media (max-width:540px){
+    .categories{
+        margin-top: 45%;
+    }
+    .box{
+        width: 15rem;
+        height: 10rem;
+        font-size: 11px;
+        margin: 1rem;
+        justify-content: space-evenly;
+        background-size: 260px;
+    }
+    .blog{
+        display: inline;
+        width: 100%
+        margin: 0 4rem 3rem 4rem;
+    }
+    .blog img{
+        margin: 0 4rem 0rem 4rem;
+        width: 80%;
+        height: auto;
+    }
+    .blog h2{
+        margin: 0 2rem 0rem 6rem;
+    }
+    .blog p{
+        margin: 0 2rem 1rem 6rem;
+        font-size: 15px;
+    }
+    .readmore{
+        float: left;
+        margin: .5rem 7.2rem;
+        padding: .8rem;
+        font-size: 14px;
+        margin-bottom: 5rem;
+    }
+    .footer{
+        margin-bottom: -1px;
+    }
+    .contact{
+        padding: 0 6rem 0 4rem;
+        font-size: 3rem;
+        margin: 1rem 0 0 0;
+    }
+    .follow{
+        padding: 0 4rem 0 6rem;
+        margin: 1rem 0 0 0;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+    .logo img{
+        width: 30px;
+    }
+    .navbar a{
+        font-size: 12px;
+        /* border: 2px solid red; */
+        margin-right: 0;
+    }
+    .header{
+        padding: 1rem 6%;
+    }
+    .categories{
+        text-align: center;
+        margin-top: 21rem;
+        /* border: 2px solid red; */
+    }
+    .categories p{
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    .container{
+        padding: 0 1rem;
+    }
+    .box{
+        width: 12rem;
+        height: 9rem;
+        font-size: 11px;
+        margin: 1rem;
+        justify-content: space-evenly;
+        background-size: 260px;
+    }
+    .footer{
+        width: 100vw;
+        display: inline-block;
+        margin: 0;
+        margin-bottom: -1px;
+    }
+    .contact{
+        padding: 0;
+        font-size: 3rem;
+    }
+    .contact p{
+        margin: 2px 0 5px 0;
+    }
+    .follow{
+        padding: 0;
+        font-size: 3rem;
+    }
+    .icons{
+        font-size: 24px;
+    }
+    .copyright{
+        margin: 0;
+        margin-top: -0.7px;
+    }
+    .latestblogtext{
+        margin-bottom: 0;
+        font-size: 3rem;
+    }
+    
+    .blog{
+        display: inline;
+        width: 100%
+        margin: 0 5rem 3rem 5rem;
+    }
+    .blog img{
+        width: 82%;
+        margin-left: 2rem;
+        margin-right: 0;
+    }
+    .blog h2{
+        margin: 0 2rem 0rem 2rem;
+    }
+    .blog p{
+        margin: 0 2rem 1rem 3rem;
+        font-size: 13px;
+    }
+    .readmore{
+        float: left;
+        margin: .5rem 5rem;
+        padding: .8rem;
+        font-size: 14px;
+        margin-bottom: 5rem;
+    }
+}
+
