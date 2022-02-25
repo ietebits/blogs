@@ -144,6 +144,7 @@ html{
     padding: 0rem 5rem;
     color: rgba(17, 17, 17, 0.932);
     /* display: contents; */
+    text-align: justify;
     text-transform: none;
 }
 .readmore{
