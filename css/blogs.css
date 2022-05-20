@@ -93,6 +93,7 @@ html{
 }
 .blogcontent p{
     margin: 0;
+    text-align: justify;
     text-transform: none;
 }
 .blogcontent h2{
