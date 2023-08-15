@@ -10,6 +10,11 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    color: white;
+}
+
+body{
+    background: #000;
 }
 
 html{
@@ -19,14 +24,18 @@ html{
     scroll-padding-top: 5rem;
 }
 
-.header{
-    top: 0; left: 0; right: 0;
-    padding: 2rem 9%;
-    padding-bottom: 1rem;
+.header {
+    background: linear-gradient(#7c7c7c3d,transparent);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    backdrop-filter: blur(13.5px);
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 9%;
+    margin-bottom: 40px;
     z-index: 1000;
     display: flex;
     align-items: center;
-    /* border: 2px solid red; */
 }
 
 .logo img{
@@ -43,32 +52,30 @@ html{
         margin-right: 2rem;
         font-size: 2rem;
         font-weight: 500;
-        color: rgb(24, 48, 55);
+        color: whitesmoke;
         /* border: 2px solid red; */
 }
 .navbar a:hover{
-    color: black;
+    color: white;
 }
-.sectionimg{
+/* .sectionimg{
     height: 280px;
-    background-image: url(/blogs/featue-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background: rgba(217, 217, 217, 0.31);
     margin-bottom: 5rem;
 }
 .sectionbg{
-    background-color: rgba(29, 25, 44,.8);
     height: 280px;
-}
+} */
 .sectionbg h1{
-    padding: 10rem 20rem;
+    padding: 1rem 2rem;
     font-size: 50px;
     text-align: center;
-    color: #fff;
-    font-weight: 200;
+    background: linear-gradient(#fff,#ffe29d);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     letter-spacing: 6px;
     margin-top: 0;
+    font-family: afr;
     text-transform: capitalize;
 }
 .blogimg{
@@ -98,17 +105,19 @@ html{
     font-size: 30px;
 }
 .blogcontent{
-    color: #333333;
+    color: #fff;
+    background: linear-gradient(#000,#1b033c,#000);
     font-size: 14px;
-    margin: 1rem 20%;
+    padding: 1rem 20%;
     font-size: 15px;
 }
 .blogcontent h2{
     margin: 0;
     font-size: 30px;
+    color: white;
 }
 .blogcontent h3{
-    color: #111;
+    color: white;
     font-size: 30px;
 }
 .blogcontent p{
@@ -118,7 +127,6 @@ html{
 }
 .blogcontent h2{
     font-size: 28px;
-    color: rgba(0, 0, 0, 0.911);
     margin-top: 5rem;
 }
 .blogcontent p{
