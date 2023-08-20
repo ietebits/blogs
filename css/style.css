@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
+@font-face {
+    font-family: afr;
+    src: url('./fonts/AquireBold-8Ma60.otf');
+}
+
+@font-face {
+    font-family: ar;
+    src: url('./fonts/Anton-Regular.ttf');
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -411,12 +421,12 @@ a {
 
 
 .footer{
-    width: 90vw;
-    margin: 2.8rem auto;
+    /* width: 90vw; */
+    /* margin: 2.8rem auto; */
     background: linear-gradient(178.62deg, rgba(198, 198, 198, 0.35) 1.24%, rgba(198, 198, 198, 0) 69.61%);
-    padding: 1rem;
-    border-radius: 2rem;
-    border: .5px solid rgba(217, 217, 217, 0.24);
+    /* padding: 1rem; */
+    /* border-radius: 2rem; */
+    /* border: .5px solid rgba(217, 217, 217, 0.24); */
     color: white;
 }
 .footer .footerWrapper{
